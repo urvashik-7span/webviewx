@@ -80,7 +80,7 @@ abstract class WebViewX {
   // /// Constructor
   const WebViewX({
     this.initialContent = 'about:blank',
-    this.initialSourceType = SourceType.url,
+    this.initialSourceType = SourceType.urlBypass,
     this.userAgent,
     required this.width,
     required this.height,
